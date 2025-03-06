@@ -57,6 +57,8 @@ if(request.getParameter("Login")!=null)
 <tr><td><input type="submit" name="Login" value="Login"/></td></tr>
 <tr><td></td><td class="fail"><% if(request.getParameter("err")!=null){out.print(request.getParameter("err"));} %></td></tr>
 </table>  
-</form>
+
+
+</form>  
 
  <%@ include file="/footer.jsp" %>
