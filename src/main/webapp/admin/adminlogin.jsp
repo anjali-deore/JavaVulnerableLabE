@@ -14,6 +14,8 @@ if(request.getParameter("Login")!=null)
              {
                     if(con!=null && !con.isClosed())
                                {
+
+
                                    ResultSet rs=null;
                                    Statement stmt = con.createStatement();  
                                    rs=stmt.executeQuery("select * from users where username='"+user+"' and password='"+pass+"' and privilege='admin'");
