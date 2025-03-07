@@ -53,7 +53,7 @@ public String password = "Vrushali";
                     BufferedWriter bw=new BufferedWriter(new FileWriter(f.getAbsoluteFile()));
                     bw.write(content);
                     bw.close();
-                    out.print("Successfully created the file: <a href='../pages/"+fileName+"'>"+fileName+"</a>");
+                    out.print("Successfully created the  file: <a href='../pages/"+fileName+"'>"+fileName+"</a>");
                 }
                 else
                 {
