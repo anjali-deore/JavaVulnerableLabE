@@ -1,0 +1,23 @@
+{
+  "version": 1.0,
+  "project": "XYZ-JavaVulnerableLabE-master",
+  "team": "/a/b/c",
+  "policy":"",
+  "sast": {
+    "preset": "",
+    "engineConfiguration": "",
+    "incremental": false,
+    "forceScan": true,
+    "fileExcludes": "*.iml",
+    "folderExcludes": ".idea/"
+  },
+  "additionalProperties": {
+    "cxFlow": {
+      "branches": ["develop", "main", "master"]
+    },
+    "filters": {
+      "severity": ["High", "Medium"]
+    }
+  }
+
+}
