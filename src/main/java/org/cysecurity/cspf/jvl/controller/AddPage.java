@@ -62,7 +62,7 @@ public class AddPage extends HttpServlet {
            }
            else
            {
-               out.print("filename or content Parameter is missing");
+               out.print("filename or content Parameter is missing..");
            }           
            
         } 
